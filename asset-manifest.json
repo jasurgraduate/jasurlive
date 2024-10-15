@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jasurlive/static/css/main.b3184362.css",
+    "main.js": "/jasurlive/static/js/main.8e4d1f0c.js",
+    "index.html": "/jasurlive/index.html",
+    "main.b3184362.css.map": "/jasurlive/static/css/main.b3184362.css.map",
+    "main.8e4d1f0c.js.map": "/jasurlive/static/js/main.8e4d1f0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3184362.css",
+    "static/js/main.8e4d1f0c.js"
+  ]
+}
