@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.17294684.css",
-    "main.js": "/static/js/main.a69d0061.js",
+    "main.js": "/static/js/main.279a5c70.js",
     "static/media/paris.png": "/static/media/paris.afda93216ee081a36ae6.png",
     "static/media/jasur7.png": "/static/media/jasur7.5f0551ea19cd62bfa2b6.png",
     "static/media/speechuz.jpg": "/static/media/speechuz.d05a59b37f93dc24ed77.jpg",
@@ -15,10 +15,10 @@
     "static/media/wanda.png": "/static/media/wanda.720caaf1f3b2d6a16c0e.png",
     "index.html": "/index.html",
     "main.17294684.css.map": "/static/css/main.17294684.css.map",
-    "main.a69d0061.js.map": "/static/js/main.a69d0061.js.map"
+    "main.279a5c70.js.map": "/static/js/main.279a5c70.js.map"
   },
   "entrypoints": [
     "static/css/main.17294684.css",
-    "static/js/main.a69d0061.js"
+    "static/js/main.279a5c70.js"
   ]
 }
