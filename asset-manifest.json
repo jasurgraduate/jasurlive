@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.17294684.css",
-    "main.js": "/static/js/main.20aacc40.js",
+    "main.js": "/static/js/main.6028fce9.js",
     "static/media/paris.png": "/static/media/paris.afda93216ee081a36ae6.png",
     "static/media/bernab2.jpg": "/static/media/bernab2.07b30a448ead5f821cf3.jpg",
     "static/media/travel.jpg": "/static/media/travel.c2ced92c2c268096c205.jpg",
@@ -9,10 +9,12 @@
     "static/media/uam.jpg": "/static/media/uam.c5c8b90dd1660c906579.jpg",
     "static/media/jasur7.png": "/static/media/jasur7.5f0551ea19cd62bfa2b6.png",
     "static/media/speechuz.jpg": "/static/media/speechuz.d05a59b37f93dc24ed77.jpg",
+    "static/media/wood.jpg": "/static/media/wood.20d92fd2682621826d85.jpg",
     "static/media/istanbul.jpg": "/static/media/istanbul.367547a9b288e7e52343.jpg",
     "static/media/soldier.jpg": "/static/media/soldier.4fd9236a72b6b31f5987.jpg",
     "static/media/fifacard.png": "/static/media/fifacard.c9a49eac2f958c398af3.png",
     "static/media/bernab.jpg": "/static/media/bernab.95ed7bd4789984ee0e54.jpg",
+    "static/media/clone.jpg": "/static/media/clone.18013df07bf3651abed9.jpg",
     "static/media/solbridge.jpg": "/static/media/solbridge.1efd7a99ec20f0cf957d.jpg",
     "static/media/seoulconfer.jpg": "/static/media/seoulconfer.8b32f2bb56d1fcd98e33.jpg",
     "static/media/brtower.png": "/static/media/brtower.f6a19139b38ac321af64.png",
@@ -22,10 +24,10 @@
     "static/media/wanda.png": "/static/media/wanda.720caaf1f3b2d6a16c0e.png",
     "index.html": "/index.html",
     "main.17294684.css.map": "/static/css/main.17294684.css.map",
-    "main.20aacc40.js.map": "/static/js/main.20aacc40.js.map"
+    "main.6028fce9.js.map": "/static/js/main.6028fce9.js.map"
   },
   "entrypoints": [
     "static/css/main.17294684.css",
-    "static/js/main.20aacc40.js"
+    "static/js/main.6028fce9.js"
   ]
 }
