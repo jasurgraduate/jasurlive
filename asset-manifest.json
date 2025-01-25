@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.17294684.css",
-    "main.js": "/static/js/main.501e58ee.js",
-    "static/media/paris.png": "/static/media/paris.afda93216ee081a36ae6.png",
-    "static/media/bernab2.jpg": "/static/media/bernab2.07b30a448ead5f821cf3.jpg",
-    "static/media/travel.jpg": "/static/media/travel.c2ced92c2c268096c205.jpg",
-    "static/media/suwon.jpg": "/static/media/suwon.8a29bac20f63bcdd08f1.jpg",
-    "static/media/uam.jpg": "/static/media/uam.c5c8b90dd1660c906579.jpg",
-    "static/media/jasur7.png": "/static/media/jasur7.5f0551ea19cd62bfa2b6.png",
-    "static/media/speechuz.jpg": "/static/media/speechuz.d05a59b37f93dc24ed77.jpg",
+    "main.js": "/static/js/main.19ef9dba.js",
+    "static/media/paris.png": "/static/media/paris.f0b67dd4df0022edc757.png",
+    "static/media/bernab2.jpg": "/static/media/bernab2.26acf7b924031cd0167e.jpg",
+    "static/media/uam.jpg": "/static/media/uam.b1bdd164533b713b0d4b.jpg",
     "static/media/wood.jpg": "/static/media/wood.20d92fd2682621826d85.jpg",
     "static/media/istanbul.jpg": "/static/media/istanbul.367547a9b288e7e52343.jpg",
     "static/media/soldier.jpg": "/static/media/soldier.4fd9236a72b6b31f5987.jpg",
     "static/media/fifacard.png": "/static/media/fifacard.c9a49eac2f958c398af3.png",
+    "static/media/speechuz.jpg": "/static/media/speechuz.ebf7d0fe66543c30c2f7.jpg",
+    "static/media/travel.jpg": "/static/media/travel.7115d32c0dbfd079434a.jpg",
+    "static/media/suwon.jpg": "/static/media/suwon.b4e536e0228ef52bc899.jpg",
+    "static/media/jasur7.png": "/static/media/jasur7.5fee52995357f46181c5.png",
     "static/media/bernab.jpg": "/static/media/bernab.95ed7bd4789984ee0e54.jpg",
     "static/media/clone.jpg": "/static/media/clone.18013df07bf3651abed9.jpg",
     "static/media/solbridge.jpg": "/static/media/solbridge.1efd7a99ec20f0cf957d.jpg",
@@ -24,10 +24,10 @@
     "static/media/wanda.png": "/static/media/wanda.720caaf1f3b2d6a16c0e.png",
     "index.html": "/index.html",
     "main.17294684.css.map": "/static/css/main.17294684.css.map",
-    "main.501e58ee.js.map": "/static/js/main.501e58ee.js.map"
+    "main.19ef9dba.js.map": "/static/js/main.19ef9dba.js.map"
   },
   "entrypoints": [
     "static/css/main.17294684.css",
-    "static/js/main.501e58ee.js"
+    "static/js/main.19ef9dba.js"
   ]
 }
