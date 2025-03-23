@@ -19,8 +19,8 @@ const Home: React.FC = () => {
         <SMS />
         <Swiper />
 
-        <Code />
         <Skills />
+        <Code />
 
         <FramedMap />
         <Projects />

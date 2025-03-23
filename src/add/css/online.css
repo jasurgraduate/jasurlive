@@ -11,7 +11,8 @@
 }
 
 .loading-icon {
-  font-size: 30px; /* Adjust the size as needed */
+  position: relative;
+  font-size: 20px;
   animation: spinner-online 1s linear infinite;
 }
 
@@ -19,6 +20,7 @@
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -26,7 +28,7 @@
 
 .container-online-users h1 {
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-weight: lighter;
   gap: 0.5rem;
   color: #1c4777;
 }

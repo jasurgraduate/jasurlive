@@ -1,6 +1,6 @@
 {
   "name": "jasurlive-uz",
-  "version": "7.7.7",
+  "version": "8.0",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",

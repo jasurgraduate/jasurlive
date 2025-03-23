@@ -12,6 +12,8 @@ const messages = [
   `def breakup():\n\n    return "Ex: ‘You’ll never find someone like me.’ Me: ‘That’s the goal.’"\n\nprint(breakup())`,
   `let life = { sleep: true, code: true, eat: true, repeat: true };\n\n
 console.log("Debugging life...")`,
+  `console.log("The secret to success: Start, then give up, then blame the universe.");`,
+  `def advice():\n\nreturn "Take my advice... I don't use it anyway."\n\nprint(advice())`,
 ];
 
 const shuffleArray = (array: string[]): string[] => {
