@@ -28,8 +28,8 @@
 
 .container-online-users h1 {
   font-size: 1.2rem;
-  font-weight: lighter;
-  gap: 0.5rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
   color: #1c4777;
 }
 

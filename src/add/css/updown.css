@@ -9,7 +9,7 @@
     border-radius: 15%;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s;
-    z-index: 10;
+    z-index: 6;
 }
 
 .updown-button:hover {

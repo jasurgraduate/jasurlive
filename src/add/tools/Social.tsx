@@ -8,7 +8,6 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import { MdHeadset } from "react-icons/md";
-import ielts from "../media/img/icons/ielts.png";
 import "../css/social.css";
 
 const socialLinks = [
@@ -39,8 +38,7 @@ const socialLinks = [
   },
   {
     href: "https://ieltslive.vercel.app/",
-    image: ielts,
-    className: "social-icon-ielts",
+    customClass: "social-icon-ielts",
   },
 ];
 
@@ -53,15 +51,13 @@ const SocialMenu: React.FC = () => {
       exit={{ scale: 0.5, opacity: 0 }}
       transition={{ type: "spring", mass: 0.75, duration: 0.7 }}
     >
-      {socialLinks.map(({ href, icon: Icon, image, className }, index) => (
-        <a key={index} href={href} className={className}>
-          {Icon ? (
-            <Icon />
-          ) : (
-            <img src={image} alt="icon" className="social-icon-ielts" />
-          )}
-        </a>
-      ))}
+      {socialLinks.map(
+        ({ href, icon: Icon, customClass, className }, index) => (
+          <a key={index} href={href} className={customClass || className}>
+            {Icon ? <Icon /> : <div className="ielts-text">IELTS</div>}
+          </a>
+        )
+      )}
     </motion.div>
   );
 };

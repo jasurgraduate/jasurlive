@@ -52,12 +52,6 @@ function Awards() {
       description:
         "Certificate for my UzY-Loco Application. Issued by the Ministry of Justice of Uzbekistan. \nFor full details, scan the QR Code in the bottom right corner. \nAugust 2024",
     },
-    {
-      imgSrc: uol,
-      title: "Master of Science (Engineering)",
-      description:
-        "Award Certificate from the University of Liverpool.\nDecember 2023.",
-    },
 
     {
       imgSrc: transcriptuol,
@@ -70,6 +64,13 @@ function Awards() {
       title: "Bachelor's diploma",
       description:
         "Award Certificate from the Tashkent Institute of Railway Engineering (From 2021 Tashkent State Transport University). 82/100. \nJune 2019.",
+    },
+
+    {
+      imgSrc: ielts2024,
+      title: "IELTS Academic | 2024",
+      description:
+        "International English Language Testing System (IELTS) Certificate. Overall 7.5/9.0 \nJune 2024",
     },
     {
       imgSrc: ielts2022,
@@ -84,10 +85,10 @@ function Awards() {
         "International English Language Testing System (IELTS) Certificate. Overall 6.5/9.0 \nMay 2019",
     },
     {
-      imgSrc: ielts2024,
-      title: "IELTS Academic | 2024",
+      imgSrc: uol,
+      title: "Master of Science (Engineering)",
       description:
-        "International English Language Testing System (IELTS) Certificate. Overall 7.5/9.0 \nJune 2024",
+        "Award Certificate from the University of Liverpool.\nDecember 2023.",
     },
   ];
 
