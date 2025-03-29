@@ -22,6 +22,7 @@ print(git_commit())`,
     return "With great power comes great electricity bill."
 \n
 print(wisdom())`,
+  `console.log("The road to success is always under construction.");`,
 ];
 
 const shuffleArray = (array: string[]): string[] => {
