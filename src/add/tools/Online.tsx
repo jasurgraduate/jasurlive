@@ -26,30 +26,44 @@ interface UserStatus {
   os: string;
   device: string;
   ip: string;
+  city: string;
+  country: string;
 }
 
 function Online() {
   const [onlineUsers, setOnlineUsers] = useState<UserStatus[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [allTimeVisitors, setAllTimeVisitors] = useState<number>(0);
-  const [isDetailVisible] = useState<boolean>(false);
 
   useEffect(() => {
-    const parser = new UAParser();
-    const uaResult = parser.getResult();
-    const browser = uaResult.browser.name || "unknown";
-    const os = uaResult.os.name || "unknown";
-    const device = uaResult.device.model || "Desktop";
-
     const fetchIpAndUpdate = async () => {
       try {
+        const parser = new UAParser();
+        const uaResult = parser.getResult();
+        const browser = uaResult.browser.name || "unknown";
+        const os = uaResult.os.name || "unknown";
+        const device = uaResult.device.model || "Desktop";
+
         let ip: string = localStorage.getItem("userIP") ?? "";
+        let city: string = localStorage.getItem("userCity") ?? "";
+        let country: string = localStorage.getItem("userCountry") ?? "";
 
         if (!ip) {
-          const response = await fetch("https://api.ipify.org?format=json");
+          const response = await fetch("https://get.geojs.io/v1/ip.json");
           const data = await response.json();
           ip = data.ip;
           localStorage.setItem("userIP", ip);
+        }
+
+        if (!city || !country) {
+          const geoResponse = await fetch(
+            `https://get.geojs.io/v1/ip/geo/${ip}.json`
+          );
+          const geoData = await geoResponse.json();
+          city = geoData.city || "Unknown";
+          country = geoData.country || "Unknown";
+          localStorage.setItem("userCity", city);
+          localStorage.setItem("userCountry", country);
         }
 
         if (!ip) return;
@@ -70,6 +84,8 @@ function Online() {
           os,
           device,
           ip,
+          city,
+          country,
         };
 
         const updateStatus = async (isOnline: boolean) => {
@@ -110,7 +126,7 @@ function Online() {
           );
         };
       } catch (error) {
-        console.error("Error fetching IP:", error);
+        console.error("Error fetching location data:", error);
       }
     };
 
@@ -145,7 +161,7 @@ function Online() {
 
     const deleteOldOnlineUserData = async () => {
       try {
-        const twoWeeksAgo = Timestamp.fromDate(new Date(Date.now() - 12096e5)); // 2 weeks ago
+        const twoWeeksAgo = Timestamp.fromDate(new Date(Date.now() - 12096e5));
         const userStatusCollectionRef = collection(firestore, "jasurlive");
         const oldUsersQuery = query(
           userStatusCollectionRef,

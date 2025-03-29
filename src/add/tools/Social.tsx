@@ -6,14 +6,15 @@ import {
   FaGithub,
   FaTelegram,
   FaWhatsapp,
+  FaLinkedinIn,
 } from "react-icons/fa";
 import { MdHeadset } from "react-icons/md";
 import "../css/social.css";
 
 const socialLinks = [
   {
-    href: "https://www.chess.com/member/jasurgraduate",
-    icon: FaChess,
+    href: "https://playlistgo.vercel.app/",
+    icon: MdHeadset,
     className: "social-icon",
   },
   {
@@ -21,6 +22,17 @@ const socialLinks = [
     icon: FaGithub,
     className: "social-icon",
   },
+  {
+    href: "https://www.linkedin.com/in/jasurlive/",
+    icon: FaLinkedinIn,
+    className: "social-icon",
+  },
+  {
+    href: "https://www.chess.com/member/jasurgraduate",
+    icon: FaChess,
+    className: "social-icon",
+  },
+
   {
     href: "https://t.me/jasurjacob_bot",
     icon: FaTelegram,
@@ -31,11 +43,7 @@ const socialLinks = [
     icon: FaWhatsapp,
     className: "social-icon",
   },
-  {
-    href: "https://playlistgo.vercel.app/",
-    icon: MdHeadset,
-    className: "social-icon",
-  },
+
   {
     href: "https://ieltslive.vercel.app/",
     customClass: "social-icon-ielts",

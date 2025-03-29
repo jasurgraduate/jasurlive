@@ -15,6 +15,10 @@ const messages = [
   "I`m so good at sleeping, I can do it with my eyes closed",
   "I learnt a lot from my mistakes. Now I want to make more mistakes to learn more",
   "Sucking at somethin' is the first step towards being sorta good at something",
+  "Life’s too short for matching socks.",
+  "I follow my heart… and it usually leads me to the fridge.",
+  "I hate it when I’m singing a song and the artist gets the lyrics wrong.",
+  "People say nothing is impossible, but I do nothing every day.",
 ];
 
 const shuffleArray = (array: string[]): string[] => {

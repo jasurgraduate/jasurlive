@@ -9,11 +9,19 @@ const messages = [
   `console.log("Some people need a high-five. In the face. With a chair.");`,
   `console.log("I'm not saying you're stupid, but you bring extra oxygen to the planet.");`,
   `def salary():\n\n    return "Comes like a turtle, leaves like a rocket."\n\nprint(salary())`,
-  `def breakup():\n\n    return "Ex: ‘You’ll never find someone like me.’ Me: ‘That’s the goal.’"\n\nprint(breakup())`,
+  `def breakup():\n\n    return "Ex: 'You'll never find someone like me.' Me: 'That's the goal.'"\n\nprint(breakup())`,
   `let life = { sleep: true, code: true, eat: true, repeat: true };\n\n
 console.log("Debugging life...")`,
   `console.log("The secret to success: Start, then give up, then blame the universe.");`,
   `def advice():\n\nreturn "Take my advice... I don't use it anyway."\n\nprint(advice())`,
+  `def git_commit():\n
+    return "Commit messages are just horror stories for future developers."
+\n
+print(git_commit())`,
+  `def wisdom():\n
+    return "With great power comes great electricity bill."
+\n
+print(wisdom())`,
 ];
 
 const shuffleArray = (array: string[]): string[] => {
